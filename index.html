@@ -1,1 +1,77 @@
-<h1>hola</h1>
+<head>
+    <title>Ejemplo</title>
+    <style type="text/css">
+        body { /* Redefinimos la etiqueta body */
+            padding: 10px;
+            font-family: arial, helvetica;
+            width: 900px;
+            margin: auto; 
+        }
+        h1, h2 { /* Redefinimos las etiquetas de cabecera */
+            color: navy;
+        }
+        #header { /* Estilo para la cabecera usando su identificador */
+            text-align: center;
+            padding: 15px 20px;
+            background-color: #E3DAFF;
+            border-bottom: 1px solid silver; 
+        }
+        #sidebar {
+            float: left;
+            width: 45%;
+            padding: 10px;
+        }
+        #article {
+            float: left;
+            width: 50%;
+        
+        }
+        #footer {
+            clear: both; 
+            text-align: center;
+            border-top: 1px solid rgb(120, 47, 216); 
+            font-size: small;
+            color: rgb(49, 56, 165);
+            background-color: #E3DAFF;
+            padding: 15px 20px;
+        
+        }
+        #sidebar a { /* Estilo para los enlaces de la barra lateral */
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 10px 10px; 
+            display: block; 
+        }
+        #sidebar a:hover { /* Pseudo-clase para los enlaces */
+            background-color: navy;
+            color: white; 
+        }
+        #article p {
+            line-height: 20pt;        
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Jorge Luis Marci</h1>
+    </div>
+    <div id="content">
+
+        <div id="sidebar" style="padding-top: 10px">            
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/USAF_photographer.jpg" alt="imagen de perfin" width="390" height="390">
+        </div>
+        <div id="article">
+
+            <h2>Acerca de mi</h2>
+            <p>
+                <span style="font-weight:bold; color:rgb(56, 20, 216)">Hola soy Jorge Luis Marci tengo 23 años nací en la ciudad de sucre también llamada como ciudad blanca tiene la característica de tener un clima variado  me gusta escuchar música  tocó algunos instrumentos pero no a la perfección.. me gusta viajar, conocer nuevos lugares, visitar lugares turísticos  En mi ciudad y también en otros departamentos 
+                    En su mayoría me atrae más los juegos de mesa como Villar, ping pong, ajedrez y juegos similares</span>.
+            </p>
+            
+        </div>    
+    </div>
+    <div id="footer">
+        Mi Sitio Web
+    </div>
+</body>
+</html>
